@@ -19,10 +19,11 @@
 | Project | Outcome | Links |
 |:--------|:--------|:------|
 | **[EXO](https://github.com/Chadoud/exo)** | Shipped cross-platform AI desktop app — sort, second brain, assistant | [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai) |
+| **[Clear Aligner Production CRM](https://github.com/Chadoud/clear-aligner-production-crm)** | Public CRM template for aligner labs — cases, quotes, invoicing, doctor billing | [Repo](https://github.com/Chadoud/clear-aligner-production-crm) |
 | **[Orthoveer](https://github.com/Chadoud/orthoveer)** | Live production site for an orthodontic supplier | [orthoveer.com](https://www.orthoveer.com/) · [Case study](https://exosites.ch/eng/projects/orthoveer) |
 | **[PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)** | Pi vision prototype → Telegram alerts | [Repo](https://github.com/Chadoud/piguard-raspberry-pi) |
 
-<sub>SwissAligner CRM (client, private) — [case study](https://exosites.ch/eng/projects/swissaligner) · public template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)</sub>
+<sub>Separate from the above: SwissAligner ERP is a private client production system ([case study](https://exosites.ch/eng/projects/swissaligner)) — not the public CRM template.</sub>
 
 ---
 
