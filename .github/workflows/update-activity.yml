@@ -19,3 +19,5 @@ jobs:
         with:
           COMMIT_MSG: "chore: update recent activity"
           MAX_LINES: 5
+          # Include pushes — most work is private; PR-only feed stays empty
+          FILTER_EVENTS: "PushEvent,PullRequestEvent,ReleaseEvent,IssuesEvent,IssueCommentEvent"
