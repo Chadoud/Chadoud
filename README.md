@@ -2,60 +2,15 @@
   <img src="./assets/header.gif" alt="Exosites Studio" width="100%" />
 </p>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://exosites.ch/eng/">
-    <img alt="Exosites" src="https://img.shields.io/badge/Exosites-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-  <a href="mailto:studio@exosites.com">
-    <img alt="Email" src="https://img.shields.io/badge/studio@exosites.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<h1 align="center">Chady Kassab</h1>
 
 <p align="center">
-  <b>Open to software engineering roles</b> · Founder of <a href="https://exosites.ch/eng/">Exosites Studio</a> · Geneva · Swiss citizen
+  <b>Full-stack software engineer</b> · Open to software engineering roles<br/>
+  Founder of <a href="https://exosites.ch/eng/">Exosites Studio</a> · Geneva · Swiss citizen<br/>
+  <a href="https://exosites.ch/eng/">exosites.ch</a> ·
+  <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">LinkedIn</a> ·
+  <a href="mailto:studio@exosites.com">studio@exosites.com</a>
 </p>
-
-<p align="center">
-  <img src="./assets/activity-graph.svg" alt="GitHub activity — last 30 days" width="100%" />
-</p>
-
-```yaml
-name: Chady Kassab
-located_in: Geneva, Switzerland
-citizenship: Swiss
-job: Full-Stack Software Engineer
-company: Exosites Studio (Founder)
-status: Open to software engineering roles
-languages_spoken: ["French (native)", "English (fluent)", "Arabic (intermediate)"]
-
-education:
-  - ["Bachelor — Business Management & Digital Marketing", "CREA / EBS, Geneva", "2020-2023"]
-  - ["Baccalaureate — Economic & Social", "Collège du Léman, Geneva", "2020"]
-
-experience:
-  - ["Full-Stack Software Engineer & Founder", "Exosites Studio", "Geneva", "Oct 2025-Present"]
-  - ["Digital Operations & Automation Coordinator", "EasySmile-4all", "Geneva", "Sep 2023-Jan 2025"]
-  - ["Digital Strategy & Data Intern", "AxessImpact", "Geneva", "Feb 2023-Jul 2023"]
-  - ["Digital Content & Web Intern", "AxessImpact", "Geneva", "Jun 2022-Aug 2022"]
-  - ["Infantry Soldier", "Swiss Armed Forces", "Mandatory service", "Jan-Oct 2025"]
-
-flagship_work:
-  - ["EXO", "In-house AI desktop app — Electron, React, FastAPI"]
-  - ["SwissAligner", "CRM web & Ionic mobile — production across clinics"]
-  - ["Orthoveer", "Live commercial site — TypeScript / React"]
-
-stack:
-  languages: ["TypeScript", "JavaScript", "Python", "SQL"]
-  frontend: ["React", "Angular", "Ionic", "Electron"]
-  backend: ["Node.js", "Express", "FastAPI", "REST", "Socket.IO"]
-  data_tests: ["MySQL", "SQLite", "Vitest", "Playwright", "Pytest"]
-  delivery: ["Docker", "GitHub Actions", "Firebase", "Linux"]
-
-focus: ["Product engineering", "Full-stack delivery", "AI tooling", "Automation", "UI/UX"]
-```
 
 ---
 
@@ -63,15 +18,30 @@ focus: ["Product engineering", "Full-stack delivery", "AI tooling", "Automation"
 
 | Project | Outcome | Links |
 |:--------|:--------|:------|
-| **[EXO](https://github.com/Chadoud/exo-apps)** | Shipped cross-platform AI desktop app (sort, second brain, assistant) — local-first, cloud sort after sign-in | [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai) |
+| **[EXO](https://github.com/Chadoud/exo-apps)** | Shipped cross-platform AI desktop app — sort, second brain, assistant | [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai) |
 | **[Orthoveer](https://github.com/Chadoud/orthoveer)** | Live production site for an orthodontic supplier | [orthoveer.com](https://www.orthoveer.com/) · [Case study](https://exosites.ch/eng/projects/orthoveer) |
-| **[PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)** | Self-contained Pi vision prototype → Telegram alerts | [Repo](https://github.com/Chadoud/piguard-raspberry-pi) |
+| **[PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)** | Pi vision prototype → Telegram alerts | [Repo](https://github.com/Chadoud/piguard-raspberry-pi) |
 
-**SwissAligner** — client CRM (web + mobile) in production across clinics.  
-Case study: [exosites.ch/eng/projects/swissaligner](https://exosites.ch/eng/projects/swissaligner) · production code stays private (`swissAligner_*` repos).  
-Public related work: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm) (template, not the client product).
+<sub>SwissAligner CRM (client, private) — [case study](https://exosites.ch/eng/projects/swissaligner) · public template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)</sub>
 
 ---
+
+```yaml
+name: Chady Kassab
+role: Full-Stack Software Engineer
+company: Exosites Studio (Founder)
+location: Geneva, Switzerland
+status: Open to software engineering roles
+languages: [French (native), English (fluent)]
+stack: [TypeScript, React, Node.js, Python, FastAPI, Electron, Angular, Ionic, SQL]
+flagships: [EXO, SwissAligner, Orthoveer]
+```
+
+---
+
+<p align="center">
+  <img src="./assets/activity-graph.svg" alt="GitHub activity — last 30 days" width="100%" />
+</p>
 
 <p align="center">
   <img height="160" src="./assets/github-stats.svg" alt="GitHub stats" />
@@ -82,8 +52,4 @@ Public related work: [clear-aligner-production-crm](https://github.com/Chadoud/c
   <a href="https://exosites.ch/eng/">exosites.ch</a> ·
   <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">LinkedIn</a> ·
   <a href="mailto:studio@exosites.com">studio@exosites.com</a>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:1a1a2e&height=80&section=footer" alt="" width="100%" />
 </p>
