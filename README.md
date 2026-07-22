@@ -16,7 +16,6 @@ I build products where code and design meet — agency work, orthodontic softwar
 
 | Project | What it is |
 |:--------|:-----------|
-| [Exosites](https://exosites.ch) | Agency studio — web, product, and digital systems |
 | [Orthoveer](https://github.com/Chadoud/orthoveer) | Production site for orthodontic machines & aligner services |
 | [Clear Aligner Production CRM](https://github.com/Chadoud/clear-aligner-production-crm) | CRM template for aligner labs — cases, quotes, invoicing |
 | [PiGuard](https://github.com/Chadoud/piguard-raspberry-pi) | Raspberry Pi vision prototype → Telegram alerts |
