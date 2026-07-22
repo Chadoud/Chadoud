@@ -18,24 +18,11 @@
 
 | Project | Outcome | Links |
 |:--------|:--------|:------|
-| **[EXO](https://github.com/Chadoud/exo-apps)** | Shipped cross-platform AI desktop app — sort, second brain, assistant | [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai) |
+| **[EXO](https://github.com/Chadoud/exo)** | Shipped cross-platform AI desktop app — sort, second brain, assistant | [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai) |
 | **[Orthoveer](https://github.com/Chadoud/orthoveer)** | Live production site for an orthodontic supplier | [orthoveer.com](https://www.orthoveer.com/) · [Case study](https://exosites.ch/eng/projects/orthoveer) |
 | **[PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)** | Pi vision prototype → Telegram alerts | [Repo](https://github.com/Chadoud/piguard-raspberry-pi) |
 
 <sub>SwissAligner CRM (client, private) — [case study](https://exosites.ch/eng/projects/swissaligner) · public template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)</sub>
-
----
-
-```yaml
-name: Chady Kassab
-role: Full-Stack Software Engineer
-company: Exosites Studio (Founder)
-location: Geneva, Switzerland
-status: Open to software engineering roles
-languages: [French (native), English (fluent)]
-stack: [TypeScript, React, Node.js, Python, FastAPI, Electron, Angular, Ionic, SQL]
-flagships: [EXO, SwissAligner, Orthoveer]
-```
 
 ---
 
@@ -46,10 +33,4 @@ flagships: [EXO, SwissAligner, Orthoveer]
 <p align="center">
   <img src="./assets/github-stats.svg" alt="GitHub stats" width="49%" />
   <img src="./assets/top-langs.svg" alt="Top languages" width="49%" />
-</p>
-
-<p align="center">
-  <a href="https://exosites.ch/eng/">exosites.ch</a> ·
-  <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">LinkedIn</a> ·
-  <a href="mailto:studio@exosites.com">studio@exosites.com</a>
 </p>
