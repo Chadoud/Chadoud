@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://socialify.git.ci/Chadoud/Chadoud/image?description=1&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark" alt="Chady Kassab" width="720" />
+  <img src="./assets/header.gif" alt="Exosites Studio" width="720" />
 </p>
 
 <p align="center">
