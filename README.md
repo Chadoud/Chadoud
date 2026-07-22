@@ -3,31 +3,33 @@
 **Full-stack software engineer** · Geneva, Switzerland · Swiss citizen  
 **Open to software engineering roles**
 
-Founder of **[Exosites Studio](https://exosites.ch/eng/)**. I design and ship production web, mobile, and desktop systems end to end — from requirements and architecture through testing, deployment, and maintenance. Core stack: TypeScript and Node.js; also Python (FastAPI, automation, computer vision) and Angular/Ionic when the product needs it.
+Founder of **[Exosites Studio](https://exosites.ch/eng/)**. I design and ship production web, mobile, and desktop systems end to end — requirements, architecture, development, testing, deployment, and maintenance. Core: TypeScript and Node.js. Also Python (FastAPI, automation, computer vision) and Angular/Ionic when the product needs it.
+
+Languages: French (native), English (fluent).
 
 ---
 
 ### Featured projects
 
 #### [EXO](https://github.com/Chadoud/exo-apps)
-Local-first AI desktop application (Electron, React, FastAPI, SQLite): smart file sorting, second brain, chat/voice assistant, and account connectors. Files stay on the device; cloud sort runs after sign-in.
+Local-first AI desktop app (Electron, React, FastAPI, SQLite): file sorting, second brain, chat/voice assistant, and connectors. Files stay on device; cloud sort after sign-in.
 
-- [Download](https://exosites.ch/downloads/exo-assistant/) · [Exosites](https://exosites.ch/eng/)
+- [Download](https://exosites.ch/downloads/exo-assistant/) · [Case study](https://exosites.ch/eng/projects/exo-ai)
 
 #### [Orthoveer](https://github.com/Chadoud/orthoveer)
 Production website for orthodontic machines, materials, and white-label aligner services.
 
-- [orthoveer.com](https://www.orthoveer.com/)
+- [orthoveer.com](https://www.orthoveer.com/) · [Case study](https://exosites.ch/eng/projects/orthoveer)
 
 #### [PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)
-Raspberry Pi computer-vision prototype that detects configured objects and sends Telegram notifications after a duration threshold.
+Raspberry Pi computer-vision prototype: detect configured objects, notify via Telegram after a duration threshold.
 
 ---
 
-### Also
+### Client work
 
-- **[Exosites Studio](https://exosites.ch/eng/)** — studio, services, and case studies  
-- **SwissAligner** — CRM web & mobile platform for aligner clinics (client work; private source). Overview on [exosites.ch](https://exosites.ch/eng/). Related public template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)
+- **[SwissAligner](https://exosites.ch/eng/projects/swissaligner)** — CRM web & Ionic mobile used across clinics (cases, chat, invoicing, push). Source is private; public CRM template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)
+- **[Exosites Studio](https://exosites.ch/eng/)** — studio site and portfolio
 
 ---
 
@@ -39,7 +41,7 @@ Raspberry Pi computer-vision prototype that detects configured objects and sends
 | Frontend | React, Angular, Ionic, Electron |
 | Backend | Node.js, Express, FastAPI, REST, Socket.IO |
 | Data & tests | MySQL, SQLite, Vitest, Playwright, Pytest |
-| Delivery | Docker, GitHub Actions, Linux |
+| Delivery | Docker, GitHub Actions, Firebase, Linux |
 
 ---
 
