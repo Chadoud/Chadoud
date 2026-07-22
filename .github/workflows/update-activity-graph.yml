@@ -18,7 +18,7 @@ jobs:
       # Falls back to GITHUB_TOKEN (public contributions only).
       - name: Generate graph
         env:
-          GITHUB_TOKEN: ${{ secrets.ACTIVITY_GRAPH_TOKEN || secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIVITY_GRAPH_TOKEN || github.token }}
           GH_USERNAME: Chadoud
         run: python3 scripts/generate-activity-graph.py
 
