@@ -5,8 +5,9 @@
 <h1 align="center">Chady Kassab</h1>
 
 <p align="center">
-  <b>Full-stack software engineer</b> · Open to software engineering roles<br/>
-  Founder of <a href="https://exosites.ch/eng/">Exosites Studio</a> · Geneva · Swiss citizen<br/>
+  Software Engineer building production desktop, web and mobile applications.<br/>
+  Founder: <a href="https://exosites.ch/eng/">Exosites Studio</a>.<br/>
+  Interests: AI, automation and product engineering.<br/><br/>
   <a href="https://exosites.ch/eng/">exosites.ch</a> ·
   <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">LinkedIn</a> ·
   <a href="mailto:studio@exosites.com">studio@exosites.com</a>
