@@ -67,13 +67,15 @@ focus: ["Product engineering", "Full-stack delivery", "AI tooling", "Automation"
 | **[Orthoveer](https://github.com/Chadoud/orthoveer)** | Live production site for an orthodontic supplier | [orthoveer.com](https://www.orthoveer.com/) · [Case study](https://exosites.ch/eng/projects/orthoveer) |
 | **[PiGuard](https://github.com/Chadoud/piguard-raspberry-pi)** | Self-contained Pi vision prototype → Telegram alerts | [Repo](https://github.com/Chadoud/piguard-raspberry-pi) |
 
-**Client (private source):** [SwissAligner](https://exosites.ch/eng/projects/swissaligner) — CRM web & mobile in production across clinics · public template: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm)
+**SwissAligner** — client CRM (web + mobile) in production across clinics.  
+Case study: [exosites.ch/eng/projects/swissaligner](https://exosites.ch/eng/projects/swissaligner) · production code stays private (`swissAligner_*` repos).  
+Public related work: [clear-aligner-production-crm](https://github.com/Chadoud/clear-aligner-production-crm) (template, not the client product).
 
 ---
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Chadoud&show_icons=true&theme=github_dark&hide_border=true&count_private=true" alt="GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chadoud&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
+  <img height="160" src="./assets/github-stats.svg" alt="GitHub stats" />
+  <img height="160" src="./assets/top-langs.svg" alt="Top languages" />
 </p>
 
 <p align="center">

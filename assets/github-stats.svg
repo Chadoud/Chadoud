@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="180" viewBox="0 0 420 180" role="img" aria-label="GitHub stats">
+  <rect width="100%" height="100%" rx="8" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="36" fill="#6366F1" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">GitHub Stats</text>
+  <text x="392" y="36" text-anchor="end" fill="#8b949e" font-size="12" font-family="Segoe UI, Ubuntu, Sans-Serif">@Chadoud</text>
+  <line x1="28" y1="48" x2="392" y2="48" stroke="#21262d"/>
+  <text x="28" y="70" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">Total contributions (year)</text><text x="392" y="70" text-anchor="end" fill="#6366F1" font-size="14" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">1,084</text><text x="28" y="96" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">Repositories</text><text x="392" y="96" text-anchor="end" fill="#c9d1d9" font-size="14" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">20</text><text x="28" y="122" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">Public repositories</text><text x="392" y="122" text-anchor="end" fill="#c9d1d9" font-size="14" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">5</text><text x="28" y="148" fill="#8b949e" font-size="13" font-family="Segoe UI, Ubuntu, Sans-Serif">Followers</text><text x="392" y="148" text-anchor="end" fill="#c9d1d9" font-size="14" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">0</text>
+</svg>
