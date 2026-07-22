@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate github-stats.svg and top-langs.svg (indigo accent, no weak vanity metrics)."""
+"""Generate equal-width github-stats.svg and top-langs.svg for 50/50 README layout."""
 
 from __future__ import annotations
 
@@ -16,6 +16,10 @@ INDIGO = "#6366F1"
 BG = "#0d1117"
 TEXT = "#c9d1d9"
 MUTED = "#8b949e"
+
+# Same canvas for both cards so width="49%" scales evenly
+CARD_W = 560
+CARD_H = 180
 
 
 def gh_api(path: str):
@@ -58,7 +62,6 @@ def gh_graphql(query: str) -> dict:
 
 
 def main() -> None:
-    user = gh_api(f"/users/{USERNAME}")
     gql = gh_graphql(
         f'''query {{
           user(login: "{USERNAME}") {{
@@ -77,8 +80,7 @@ def main() -> None:
     langs = Counter(r["language"] for r in owned if r.get("language"))
     public_count = sum(1 for r in owned if not r.get("private"))
 
-    # Stats — no followers
-    w, h = 420, 160
+    w, h = CARD_W, CARD_H
     rows = [
         ("Contributions (year)", f"{total_contrib:,}", INDIGO),
         ("Repositories", str(len(owned)), TEXT),
@@ -86,48 +88,48 @@ def main() -> None:
     ]
     lines = []
     for i, (label, val, color) in enumerate(rows):
-        y = 68 + i * 28
+        y = 72 + i * 32
         lines.append(
-            f'<text x="28" y="{y}" fill="{MUTED}" font-size="13" '
+            f'<text x="32" y="{y}" fill="{MUTED}" font-size="14" '
             f'font-family="Segoe UI, Ubuntu, Sans-Serif">{label}</text>'
-            f'<text x="{w - 28}" y="{y}" text-anchor="end" fill="{color}" font-size="14" '
+            f'<text x="{w - 32}" y="{y}" text-anchor="end" fill="{color}" font-size="16" '
             f'font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">{val}</text>'
         )
     stats = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="GitHub stats">
   <rect width="100%" height="100%" rx="8" fill="{BG}" stroke="#30363d"/>
-  <text x="28" y="34" fill="{INDIGO}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">GitHub Stats</text>
-  <line x1="28" y1="46" x2="{w - 28}" y2="46" stroke="#21262d"/>
+  <text x="32" y="36" fill="{INDIGO}" font-size="18" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">GitHub Stats</text>
+  <line x1="32" y1="50" x2="{w - 32}" y2="50" stroke="#21262d"/>
   {"".join(lines)}
 </svg>
 '''
     (ROOT / "assets" / "github-stats.svg").write_text(stats, encoding="utf-8")
 
-    # Top languages
-    lw, lh = 320, 160
     items = langs.most_common(5)
     total = sum(c for _, c in items) or 1
     colors = [INDIGO, "#818CF8", "#A5B4FC", "#4F46E5", "#4338CA"]
+    bar_x = 140
+    bar_max = w - bar_x - 56
     bars = []
     for i, (lang, n) in enumerate(items):
-        y = 62 + i * 18
-        bw = int(180 * (n / total))
+        y = 72 + i * 20
+        bw = max(4, int(bar_max * (n / total)))
         bars.append(
-            f'<text x="28" y="{y}" fill="{TEXT}" font-size="12" '
+            f'<text x="32" y="{y}" fill="{TEXT}" font-size="13" '
             f'font-family="Segoe UI, Ubuntu, Sans-Serif">{lang}</text>'
-            f'<rect x="120" y="{y - 10}" width="180" height="10" rx="3" fill="#21262d"/>'
-            f'<rect x="120" y="{y - 10}" width="{bw}" height="10" rx="3" fill="{colors[i % len(colors)]}"/>'
-            f'<text x="{lw - 28}" y="{y}" text-anchor="end" fill="{MUTED}" font-size="11" '
+            f'<rect x="{bar_x}" y="{y - 10}" width="{bar_max}" height="10" rx="3" fill="#21262d"/>'
+            f'<rect x="{bar_x}" y="{y - 10}" width="{bw}" height="10" rx="3" fill="{colors[i % len(colors)]}"/>'
+            f'<text x="{w - 32}" y="{y}" text-anchor="end" fill="{MUTED}" font-size="12" '
             f'font-family="Segoe UI, Ubuntu, Sans-Serif">{n}</text>'
         )
-    langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{lw}" height="{lh}" viewBox="0 0 {lw} {lh}" role="img" aria-label="Top languages">
+    langs_svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Top languages">
   <rect width="100%" height="100%" rx="8" fill="{BG}" stroke="#30363d"/>
-  <text x="28" y="34" fill="{INDIGO}" font-size="16" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">Top Languages</text>
-  <line x1="28" y1="46" x2="{lw - 28}" y2="46" stroke="#21262d"/>
+  <text x="32" y="36" fill="{INDIGO}" font-size="18" font-weight="600" font-family="Segoe UI, Ubuntu, Sans-Serif">Top Languages</text>
+  <line x1="32" y1="50" x2="{w - 32}" y2="50" stroke="#21262d"/>
   {"".join(bars)}
 </svg>
 '''
     (ROOT / "assets" / "top-langs.svg").write_text(langs_svg, encoding="utf-8")
-    print(f"Wrote stats ({total_contrib} contrib, {len(owned)} repos) + top langs")
+    print(f"Wrote equal {w}x{h} cards ({total_contrib} contrib, {len(owned)} repos)")
 
 
 if __name__ == "__main__":

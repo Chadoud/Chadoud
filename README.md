@@ -44,8 +44,8 @@ flagships: [EXO, SwissAligner, Orthoveer]
 </p>
 
 <p align="center">
-  <img height="160" src="./assets/github-stats.svg" alt="GitHub stats" />
-  <img height="160" src="./assets/top-langs.svg" alt="Top languages" />
+  <img src="./assets/github-stats.svg" alt="GitHub stats" width="49%" />
+  <img src="./assets/top-langs.svg" alt="Top languages" width="49%" />
 </p>
 
 <p align="center">
