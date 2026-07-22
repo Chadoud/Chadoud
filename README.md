@@ -39,7 +39,7 @@ Raspberry Pi computer-vision prototype that detects configured objects and sends
 | Frontend | React, Angular, Ionic, Electron |
 | Backend | Node.js, Express, FastAPI, REST, Socket.IO |
 | Data & tests | MySQL, SQLite, Vitest, Playwright, Pytest |
-| Delivery | Docker, GitHub Actions, Firebase, Linux |
+| Delivery | Docker, GitHub Actions, Linux |
 
 ---
 
