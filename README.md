@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.gif" alt="Exosites Studio" width="720" />
+  <img src="./assets/header.gif" alt="Exosites Studio" width="100%" />
 </p>
 
 <p align="center">
