@@ -74,13 +74,6 @@ focus: ["Product engineering", "Full-stack delivery", "AI tooling", "Automation"
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Chadoud&layout=compact&theme=github_dark&hide_border=true&langs_count=6" alt="Top languages" />
 </p>
 
-**:zap: Recent activity**
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
----
-
 <p align="center">
   <a href="https://exosites.ch/eng/">exosites.ch</a> ·
   <a href="https://www.linkedin.com/in/chady-kassab/?locale=en">LinkedIn</a> ·
