@@ -18,7 +18,9 @@
   <b>Open to software engineering roles</b> · Founder of <a href="https://exosites.ch/eng/">Exosites Studio</a> · Geneva · Swiss citizen
 </p>
 
-[![activity graph](https://github-readme-activity-graph.vercel.app/graph?username=Chadoud&theme=github-dark-dimmed&custom_title=Chady%20Kassab%20%E2%80%94%20Activity&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="center">
+  <img src="./assets/activity-graph.svg" alt="GitHub activity — last 30 days" width="100%" />
+</p>
 
 ```yaml
 name: Chady Kassab
